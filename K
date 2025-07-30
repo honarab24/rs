@@ -1,1 +1,12 @@
-vod_library="https://json.link/V9uF1wdElk.json"
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvVYatCtpG6H0BMhXn7qkSjsmqJVwbtmbVGg&s" group-title="🏀 NBA LEAGUE PASS",test
+#EXTVLCOPT:http-origin=https://www.dens.tv
+#EXTVLCOPT:http-referrer=https://www.dens.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36
+https://op-group1-swiftservesd-1.dens.tv/s/s34/index.m3u8
+
+
+
+
+
+###vod_library="https://json.link/V9uF1wdElk.json"
+
