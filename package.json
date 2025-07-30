@@ -1,6 +1,7 @@
 {
-  "name": "iptv-proxy",
+  "name": "hls-proxy",
   "version": "1.0.0",
+  "description": "HLS M3U8 + TS proxy for IPTV streams",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
