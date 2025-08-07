@@ -130,7 +130,7 @@ app.get('/segment.ts', (req, res) => {
 
 // 🌐 Root
 app.get('/', (req, res) => {
-  res.send('⭐ STAR OF VENUS ⭐');
+  res.send('');
 });
 
 // 🚀 Start server
