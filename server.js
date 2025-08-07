@@ -33,19 +33,19 @@ const streams = {
   kplus: 'https://smart.pendy.dpdns.org/Smart.php?id=Kplus',
   rockactions: 'https://smart.pendy.dpdns.org/Smart.php?id=Rockaction',
   rockentertainment: 'https://smart.pendy.dpdns.org/Smart.php?id=Rockentertain',
-  natgeohd_twn: 'https://smart.pendy.dpdns.org/Smart.php?id=natgeohd_twn',
-  natgeohd: 'https://smart.pendy.dpdns.org/Smart.php?id=Natgeo',
-  natgeowild_twn: 'https://smart.pendy.dpdns.org/Smart.php?id=natgeowild_twn',
-  natgeowild: 'https://smart.pendy.dpdns.org/Smart.php?id=Natgeowild',
-  animalplanet_twn: 'https://smart.pendy.dpdns.org/Smart.php?id=animalplanet_twn',
-  animalplanet: 'https://smart.pendy.dpdns.org/Smart.php?id=AnimalPlanet',
+  natgeohd: 'https://smart.pendy.dpdns.org/Smart.php?id=natgeohd_twn',
+  natgeowild: 'https://smart.pendy.dpdns.org/Smart.php?id=natgeowild_twn',
+  animalplanet: 'https://smart.pendy.dpdns.org/Smart.php?id=animalplanet_twn',
   discoveryasia: 'https://smart.pendy.dpdns.org/Smart.php?id=discoverytwn_twn',
   ci: 'https://smart.pendy.dpdns.org/Smart.php?id=ci_twn',
   discoveryhd: 'https://smart.pendy.dpdns.org/Smart.php?id=discoveryhd_twn',
+  natgeohd: 'https://smart.pendy.dpdns.org/Smart.php?id=Natgeo',
   fashiontv: 'https://smart.pendy.dpdns.org/Smart.php?id=fashiontv_twn',
   history: 'https://smart.pendy.dpdns.org/Smart.php?id=History',
   bbcearthhd: 'https://smart.pendy.dpdns.org/Smart.php?id=bbcearth_twn',
   bbclifestyle: 'https://smart.pendy.dpdns.org/Smart.php?id=bbclifestyle_twn',
+  natgeowild: 'https://smart.pendy.dpdns.org/Smart.php?id=Natgeowild',
+  animalplanet: 'https://smart.pendy.dpdns.org/Smart.php?id=AnimalPlanet',
   tlc: 'https://smart.pendy.dpdns.org/Smart.php?id=Tlc',
   foodnetworkhd: 'https://smart.pendy.dpdns.org/Smart.php?id=Foodnetwork',
   hgtv: 'https://smart.pendy.dpdns.org/Smart.php?id=HGTV',
@@ -62,7 +62,7 @@ const streams = {
   sony_wah: 'https://tataplay.slivcdn.com/hls/live/2011906/SonyWah/master_2000.m3u8',
   sony_pix_hd: 'https://tataplay.slivcdn.com/hls/live/2011748/PIXHD/master_2000.m3u8',
   sony_bbc_earth_hd: 'https://tataplay.slivcdn.com/hls/live/2011907/SonyBBCEarthHD/master_2000.m3u8',
-  sony_sports_ten_1_hd: 'https://tataplay.slivcdn.com/hls/live/2011747/TEN1HD/master_2000.m3u8',
+  sony_sports_ten_1_hd: 'https://tataplay.slivcdn.com//hls/live/2011747/TEN1HD/master_2000.m3u8',
   sony_sports_ten_2_hd: 'https://tataplay.slivcdn.com/hls/live/2020434/TEN2HD/master_2000.m3u8',
   sony_sports_ten_3_hd: 'https://tataplay.slivcdn.com/hls/live/2020591/TEN3HD/master_2000.m3u8',
   sony_sports_ten_4_hd: 'https://tataplay.slivcdn.com/hls/live/2020589/ten4hd/master_2000.m3u8',
@@ -128,14 +128,9 @@ app.get('/segment.ts', (req, res) => {
     .pipe(res);
 });
 
-// 📃 List all available stream keys
-app.get('/streams', (req, res) => {
-  res.json(Object.keys(streams));
-});
-
 // 🌐 Root
 app.get('/', (req, res) => {
-  res.send('');
+  res.send('⭐ STAR OF VENUS ⭐');
 });
 
 // 🚀 Start server
@@ -143,10 +138,9 @@ app.listen(port, () => {
   console.log(`✅ Server running at http://localhost:${port}`);
 });
 
-// Optional variants (for future resolution support)
 const variants = [
-  { bw: 400000, res: '640x360', path: 'exchange274551lrmlx_274551_800' },
-  { bw: 1400000, res: '854x480', path: 'exchange274551lrmlx_274551_1400' },
-  { bw: 2400000, res: '1280x720', path: 'exchange274551lrmlx_274551_3000' },
-  { bw: 4500000, res: '1920x1080', path: 'exchange274551lrmlx_274551_4500' },
+{ bw: 400000, res: '640x360', path: 'exchange274551lrmlx_274551_800' },
+{ bw: 1400000, res: '854x480', path: 'exchange274551lrmlx_274551_1400' },
+{ bw: 2400000, res: '1280x720', path: 'exchange274551lrmlx_274551_3000' },
+{ bw: 4500000, res: '1920x1080', path: 'exchange274551lrmlx_274551_4500' },
 ];
