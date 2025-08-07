@@ -68,9 +68,25 @@ const streams = {
   sony_sports_ten_4_hd: 'https://tataplay.slivcdn.com/hls/live/2020589/ten4hd/master_2000.m3u8',
   sony_sports_ten_5_hd: 'https://tataplay.slivcdn.com/hls/live/2020593/SONYSIXHD/master_2000.m3u8',
 
-  // Add your long dice-hosted streams below
-  // (already included in your original post, no change needed)
-  tap_sports: 'https://dice-live-ap.akamaized.net/...' // shortened here for clarity
+  
+  tap_sports: 'https://dice-live-ap.akamaized.net/hls/live/2102472/220939-300571/exchange220939frzbx_220939_3000/chunklist.m3u8?hdntl=exp=1754582847~acl=%2F*~id=354645d7-c8ba-4c40-9601-9f9bde6e23d5~data=hdntl,dWlkPUNUZmR0S3xlZTU2N2U3NS02NTg1LTQwOGEtYmIzOS1hZDhlYjIzMDVmNjMmaXA9MTI2LjIwOS41My4xODYmZXhwPTE3NTQ1ODI4NzcmZWlkPTIyMDkzOSZjaWQ9ZGNlLnRhcGdvJm9pZD0zMjUmdHlwZT1MSVZF~hmac=421818ed1328f0bf130450ffb81ec10e1f8cc37f302801dc578d24c4eb8ec777',
+  
+  premier_sports: 'https://dice-live-ap.akamaized.net/hls/live/2102405/220944-300574/exchange220944tkwck_220944_3000/chunklist.m3u8?hdntl=exp=1754582921~acl=%2F*~id=90abc6cc-ad55-46ec-95f5-b4abaf6c6a18~data=hdntl,dWlkPUNUZmR0S3xlZTU2N2U3NS02NTg1LTQwOGEtYmIzOS1hZDhlYjIzMDVmNjMmaXA9MTI2LjIwOS41My4xODYmZXhwPTE3NTQ1ODI5NTAmZWlkPTIyMDk0NCZjaWQ9ZGNlLnRhcGdvJm9pZD0zMjUmdHlwZT1MSVZF~hmac=ccb5824bc0953fc53d7782894a377deb2d2f7133ea96d60dd5963c94807979e0',
+  
+  premier_sports2: 'https://dice-live-ap.akamaized.net/hls/live/2102409/220945-300575/exchange220945ydtan_220945_3000/chunklist.m3u8?hdntl=exp=1754583024~acl=%2F*~id=43d7fc68-d20d-452e-9fe6-f678331ae8f7~data=hdntl,dWlkPUNUZmR0S3xlZTU2N2U3NS02NTg1LTQwOGEtYmIzOS1hZDhlYjIzMDVmNjMmaXA9MTI2LjIwOS41My4xODYmZXhwPTE3NTQ1ODMwNTMmZWlkPTIyMDk0NSZjaWQ9ZGNlLnRhcGdvJm9pZD0zMjUmdHlwZT1MSVZF~hmac=24bf5e6946bc3ae40a08eaeb7dcd0692bb6cf71b46711ef42a9066c219cdaf2e',
+  
+  tvn: 'https://dice-live-ap.akamaized.net/hls/live/2102436/274550-300235/exchange274550tryqz_274550_3000/chunklist.m3u8?hdntl=exp=1754583132~acl=%2F*~id=d6ddc24f-d282-4199-8a9e-07c362b29887~data=hdntl,dWlkPUNUZmR0S3xlZTU2N2U3NS02NTg1LTQwOGEtYmIzOS1hZDhlYjIzMDVmNjMmaXA9MTEyLjIwNC4xMTcuMjU1JmV4cD0xNzU0NTgzMTYxJmVpZD0yNzQ1NTAmY2lkPWRjZS50YXBnbyZvaWQ9MzI1JnR5cGU9TElWRQ~hmac=d08e550eaa87704ccf0eaef7e6c4ccd74698f2ce3826ecbb28bee4468e7132d1',
+  
+  tvnmovies_pinoy: 'https://dice-live-ap.akamaized.net/hls/live/2000230/274551-300568/exchange274551xuwnr_274551_3000/chunklist.m3u8?hdntl=exp=1754583192~acl=%2F*~id=1272816c-faa7-4ba4-b6f1-d9e0721d4e92~data=hdntl,dWlkPUNUZmR0S3xlZTU2N2U3NS02NTg1LTQwOGEtYmIzOS1hZDhlYjIzMDVmNjMmaXA9MTI2LjIwOS41My4xODYmZXhwPTE3NTQ1ODMyMjEmZWlkPTI3NDU1MSZjaWQ9ZGNlLnRhcGdvJm9pZD0zMjUmdHlwZT1MSVZF~hmac=1d3e1db72c71d775def0e0bee408a9082d291ce622b65a99cb3e227ad4f7eaa3',
+  
+  blast_sports: 'https://dice-live-ap.akamaized.net/hls/live/2102492/266217-300579/exchange266217vmjpk_266217_3000/chunklist.m3u8?hdntl=exp=1754583266~acl=%2F*~id=ea20740f-036c-41c0-9b77-aefd15ed14bf~data=hdntl,dWlkPUNUZmR0S3xlZTU2N2U3NS02NTg1LTQwOGEtYmIzOS1hZDhlYjIzMDVmNjMmaXA9MTEyLjIwNC4xMTcuMjU1JmV4cD0xNzU0NTgzMjk2JmVpZD0yNjYyMTcmY2lkPWRjZS50YXBnbyZvaWQ9MzI1JnR5cGU9TElWRQ~hmac=82192518fd0ea35d40d2570cd9007177b7875a0cf853ba74e97f83c7cc3dd8e6',
+  
+  premier_football: 'https://dice-live-ap.akamaized.net/hls/live/2000232/220960-300572/exchange220960ktcqf_220960_1400/chunklist.m3u8?hdntl=exp=1754583346~acl=%2F*~id=ec27a192-4434-4761-8df6-cf2355d7b442~data=hdntl,dWlkPUNUZmR0S3xlZTU2N2U3NS02NTg1LTQwOGEtYmIzOS1hZDhlYjIzMDVmNjMmaXA9MTI2LjIwOS41My4xODYmZXhwPTE3NTQ1ODMzNzYmZWlkPTIyMDk2MCZjaWQ9ZGNlLnRhcGdvJm9pZD0zMjUmdHlwZT1MSVZF~hmac=53a45a9487d1e465d7b011111ebc85598a38c317d255e3cc244278b441a7c96a',
+  
+  studio_universal: 'https://dice-live-ap.akamaized.net/hls/live/2001940/275710-300573/exchange275710vgbbu_275710_3000/chunklist.m3u8?hdntl=exp=1754583430~acl=%2F*~id=6d12d686-1b7f-4deb-876c-44bc30107a08~data=hdntl,dWlkPUNUZmR0S3xlZTU2N2U3NS02NTg1LTQwOGEtYmIzOS1hZDhlYjIzMDVmNjMmaXA9MTI2LjIwOS41My4xODYmZXhwPTE3NTQ1ODM0NTkmZWlkPTI3NTcxMCZjaWQ9ZGNlLnRhcGdvJm9pZD0zMjUmdHlwZT1MSVZF~hmac=1eb22d35432ff0793fea45c57d55851194e7a6e2d56f8f845f759de6a071d32e',
+  
+  outdoor: 'https://dice-live-ap.akamaized.net/hls/live/2102549/253911-300592/exchange253911xzlkc_253911_3000/chunklist.m3u8?hdntl=exp=1754583507~acl=%2F*~id=a840da23-1c99-4e99-b6b8-3def31f6d62e~data=hdntl,dWlkPUNUZmR0S3xlZTU2N2U3NS02NTg1LTQwOGEtYmIzOS1hZDhlYjIzMDVmNjMmaXA9MTEyLjIwNC4xMTcuMjU1JmV4cD0xNzU0NTgzNTM2JmVpZD0yNTM5MTEmY2lkPWRjZS50YXBnbyZvaWQ9MzI1JnR5cGU9TElWRQ~hmac=1bfe4b149fde35a16d7da31de3706c941d74ba49f084b32da0730b14c83c0e88',
+  
 };
 
 // 📺 Stream route: /CHANNEL_NAME/playlist.m3u8
