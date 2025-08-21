@@ -167,3 +167,54 @@ https://tataplay.slivcdn.com/hls/live/2020589/ten4hd/master_2000.m3u8
 
 #EXTINF:-1 tvg-id="sony_sports_ten_5_hd" tvg-name="Sony Sports Ten 5 HD (Sony Six HD)" group-title="Sony Sports",Sony Sports Ten 5 HD
 https://tataplay.slivcdn.com/hls/live/2020593/SONYSIXHD/master_2000.m3u8
+
+
+#EXTM3U
+
+#EXTINF:-1 tvg-id="fight" tvg-name="Fight Sports" group-title="Sports",Fight Sports
+http://originhd-1.dens.tv/h/h05/02.m3u8
+
+#EXTINF:-1 tvg-id="celestialmovies" tvg-name="Celestial Movies" group-title="Movies",Celestial Movies
+http://originhd-1.dens.tv/h/h14/02.m3u8
+
+#EXTINF:-1 tvg-id="rockaction" tvg-name="Rock Action" group-title="Movies",Rock Action
+http://originhd-1.dens.tv/h/h15/02.m3u8
+
+#EXTINF:-1 tvg-id="rockentertainment" tvg-name="Rock Entertainment" group-title="Entertainment",Rock Entertainment
+http://originhd-1.dens.tv/h/h16/02.m3u8
+
+#EXTINF:-1 tvg-id="tvn" tvg-name="tvN" group-title="Entertainment",tvN
+http://originhd-1.dens.tv/h/h20/02.m3u8
+
+#EXTINF:-1 tvg-id="tvnmovies" tvg-name="tvN Movies" group-title="Movies",tvN Movies
+http://originhd-1.dens.tv/h/h21/02.m3u8
+
+#EXTINF:-1 tvg-id="mce" tvg-name="MCE" group-title="Entertainment",MCE
+http://originhd-1.dens.tv/h/h18/02.m3u8
+
+#EXTINF:-1 tvg-id="nhkworld" tvg-name="NHK World" group-title="News",NHK World
+http://originhd-1.dens.tv/h/h23/02.m3u8
+
+#EXTINF:-1 tvg-id="aniplus" tvg-name="Aniplus" group-title="Anime",Aniplus
+http://originhd-1.dens.tv/h/h201/02.m3u8
+
+#EXTINF:-1 tvg-id="kbskorea" tvg-name="KBS Korea" group-title="Korea",KBS Korea
+http://originhd-1.dens.tv/h/h241/02.m3u8
+
+#EXTINF:-1 tvg-id="kbsworld" tvg-name="KBS World" group-title="Korea",KBS World
+http://originhd-1.dens.tv/h/h243/02.m3u8
+
+#EXTINF:-1 tvg-id="kix" tvg-name="KIX" group-title="Action",KIX
+http://originhd-1.dens.tv/h/h220/02.m3u8
+
+#EXTINF:-1 tvg-id="tv5monde" tvg-name="TV5Monde Style" group-title="Lifestyle",TV5Monde Style
+http://originhd-1.dens.tv/h/h216/02.m3u8
+
+#EXTINF:-1 tvg-id="kplus" tvg-name="K+ Channel" group-title="Entertainment",K+ Channel
+http://originhd-1.dens.tv/h/h219/02.m3u8
+
+#EXTINF:-1 tvg-id="mycinemaasia" tvg-name="My Cinema Asia" group-title="Movies",My Cinema Asia
+http://originhd-1.dens.tv/h/h193/index.m3u8
+
+#EXTINF:-1 tvg-id="myfamilychannel" tvg-name="My Family Channel" group-title="Entertainment",My Family Channel
+http://originhd-1.dens.tv/h/h194/index.m3u8
