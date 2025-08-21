@@ -1,13 +1,53 @@
 #EXTM3U
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvVYatCtpG6H0BMhXn7qkSjsmqJVwbtmbVGg&s" group-title="🏀 NBA LEAGUE PASS",test
-#EXTVLCOPT:http-origin=https://www.dens.tv
-#EXTVLCOPT:http-referrer=https://www.dens.tv/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
-http://op-group1-swiftservehd-1.dens.tv/h/h207/02.m3u8
+#EXTM3U
 
+#EXTINF:-1 tvg-id="set_hd" tvg-name="Sony SET HD" group-title="Sony",Sony SET HD
+https://tataplay.slivcdn.com/hls/live/2011671/SETHD/master_2000.m3u8
 
+#EXTINF:-1 tvg-id="sony_sab_hd" tvg-name="Sony SAB HD" group-title="Sony",Sony SAB HD
+https://tataplay.slivcdn.com/hls/live/2011749/SABHD/master_2000.m3u8
 
+#EXTINF:-1 tvg-id="sony_marathii" tvg-name="Sony Marathi" group-title="Sony",Sony Marathi
+https://tataplay.slivcdn.com/hls/live/2011740/SonyMarathi/master_2000.m3u8
 
+#EXTINF:-1 tvg-id="sony_pal" tvg-name="Sony Pal" group-title="Sony",Sony Pal
+https://tataplay.slivcdn.com/hls/live/2011741/SonyPalSD/master_2000.m3u8
 
-###vod_library="https://json.link/V9uF1wdElk.json"
+#EXTINF:-1 tvg-id="sony_aath" tvg-name="Sony Aath" group-title="Sony",Sony Aath
+https://tataplay.slivcdn.com/hls/live/2011641/SonyAathSD/master_2000.m3u8
 
+#EXTINF:-1 tvg-id="sony_yay" tvg-name="Sony Yay" group-title="Sony",Sony Yay
+https://tataplay.slivcdn.com/hls/live/2011746/SonyYaySD/master_2000.m3u8
+
+#EXTINF:-1 tvg-id="sony_max_hd" tvg-name="Sony Max HD" group-title="Sony",Sony Max HD
+https://tataplay.slivcdn.com/hls/live/2011670/SonyMaxhd/master_2000.m3u8
+
+#EXTINF:-1 tvg-id="sony_max" tvg-name="Sony Max" group-title="Sony",Sony Max
+https://tataplay.slivcdn.com/hls/live/2011745/SonyMaxSD/master_2000.m3u8
+
+#EXTINF:-1 tvg-id="sony_max2" tvg-name="Sony Max 2" group-title="Sony",Sony Max 2
+https://tataplay.slivcdn.com/hls/live/2011908/MAX2/master_2000.m3u8
+
+#EXTINF:-1 tvg-id="sony_wah" tvg-name="Sony Wah" group-title="Sony",Sony Wah
+https://tataplay.slivcdn.com/hls/live/2011906/SonyWah/master_2000.m3u8
+
+#EXTINF:-1 tvg-id="sony_pix_hd" tvg-name="Sony Pix HD" group-title="Sony",Sony Pix HD
+https://tataplay.slivcdn.com/hls/live/2011748/PIXHD/master_2000.m3u8
+
+#EXTINF:-1 tvg-id="sony_bbc_earth_hd" tvg-name="Sony BBC Earth HD" group-title="Sony",Sony BBC Earth HD
+https://tataplay.slivcdn.com/hls/live/2011907/SonyBBCEarthHD/master_2000.m3u8
+
+#EXTINF:-1 tvg-id="sony_sports_ten_1_hd" tvg-name="Sony Sports Ten 1 HD" group-title="Sony Sports",Sony Sports Ten 1 HD
+https://tataplay.slivcdn.com/hls/live/2011747/TEN1HD/master_2000.m3u8
+
+#EXTINF:-1 tvg-id="sony_sports_ten_2_hd" tvg-name="Sony Sports Ten 2 HD" group-title="Sony Sports",Sony Sports Ten 2 HD
+https://tataplay.slivcdn.com/hls/live/2020434/TEN2HD/master_2000.m3u8
+
+#EXTINF:-1 tvg-id="sony_sports_ten_3_hd" tvg-name="Sony Sports Ten 3 HD" group-title="Sony Sports",Sony Sports Ten 3 HD
+https://tataplay.slivcdn.com/hls/live/2020591/TEN3HD/master_2000.m3u8
+
+#EXTINF:-1 tvg-id="sony_sports_ten_4_hd" tvg-name="Sony Sports Ten 4 HD" group-title="Sony Sports",Sony Sports Ten 4 HD
+https://tataplay.slivcdn.com/hls/live/2020589/ten4hd/master_2000.m3u8
+
+#EXTINF:-1 tvg-id="sony_sports_ten_5_hd" tvg-name="Sony Sports Ten 5 HD (Sony Six HD)" group-title="Sony Sports",Sony Sports Ten 5 HD
+https://tataplay.slivcdn.com/hls/live/2020593/SONYSIXHD/master_2000.m3u8
