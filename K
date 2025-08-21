@@ -1,5 +1,73 @@
 #EXTM3U
-#EXTM3U
+
+#EXTINF:-1 tvg-id="celestialclassic" tvg-name="Celestial Classic" group-title="Movies",Celestial Classic
+https://smart.pendy.dpdns.org/Smart.php?id=Celestial2
+
+#EXTINF:-1 tvg-id="celestialmovieshd" tvg-name="Celestial Movies HD" group-title="Movies",Celestial Movies HD
+https://smart.pendy.dpdns.org/Smart.php?id=Celestialindo
+
+#EXTINF:-1 tvg-id="axnhd" tvg-name="AXN HD" group-title="Entertainment",AXN HD
+https://smart.pendy.dpdns.org/Smart.php?id=Axn
+
+#EXTINF:-1 tvg-id="paramountnetwork" tvg-name="Paramount Network" group-title="Entertainment",Paramount Network
+https://smart.pendy.dpdns.org/Smart.php?id=Paramountnetwork
+
+#EXTINF:-1 tvg-id="kplus" tvg-name="K+ Channel" group-title="Entertainment",K+ Channel
+https://smart.pendy.dpdns.org/Smart.php?id=Kplus
+
+#EXTINF:-1 tvg-id="rockactions" tvg-name="Rock Action" group-title="Movies",Rock Action
+https://smart.pendy.dpdns.org/Smart.php?id=Rockaction
+
+#EXTINF:-1 tvg-id="rockentertainment" tvg-name="Rock Entertainment" group-title="Entertainment",Rock Entertainment
+https://smart.pendy.dpdns.org/Smart.php?id=Rockentertain
+
+#EXTINF:-1 tvg-id="natgeohd" tvg-name="National Geographic HD" group-title="Documentary",National Geographic HD
+https://smart.pendy.dpdns.org/Smart.php?id=natgeohd_twn
+
+#EXTINF:-1 tvg-id="natgeowild" tvg-name="Nat Geo Wild" group-title="Documentary",Nat Geo Wild
+https://smart.pendy.dpdns.org/Smart.php?id=natgeowild_twn
+
+#EXTINF:-1 tvg-id="animalplanet" tvg-name="Animal Planet" group-title="Documentary",Animal Planet
+https://smart.pendy.dpdns.org/Smart.php?id=animalplanet_twn
+
+#EXTINF:-1 tvg-id="discoveryasia" tvg-name="Discovery Asia" group-title="Documentary",Discovery Asia
+https://smart.pendy.dpdns.org/Smart.php?id=discoverytwn_twn
+
+#EXTINF:-1 tvg-id="ci" tvg-name="Crime & Investigation" group-title="Documentary",Crime & Investigation
+https://smart.pendy.dpdns.org/Smart.php?id=ci_twn
+
+#EXTINF:-1 tvg-id="discoveryhd" tvg-name="Discovery HD" group-title="Documentary",Discovery HD
+https://smart.pendy.dpdns.org/Smart.php?id=discoveryhd_twn
+
+#EXTINF:-1 tvg-id="natgeo" tvg-name="National Geographic" group-title="Documentary",National Geographic
+https://smart.pendy.dpdns.org/Smart.php?id=Natgeo
+
+#EXTINF:-1 tvg-id="fashiontv" tvg-name="Fashion TV" group-title="Lifestyle",Fashion TV
+https://smart.pendy.dpdns.org/Smart.php?id=fashiontv_twn
+
+#EXTINF:-1 tvg-id="history" tvg-name="History Channel" group-title="Documentary",History Channel
+https://smart.pendy.dpdns.org/Smart.php?id=History
+
+#EXTINF:-1 tvg-id="bbcearthhd" tvg-name="BBC Earth HD" group-title="Documentary",BBC Earth HD
+https://smart.pendy.dpdns.org/Smart.php?id=bbcearth_twn
+
+#EXTINF:-1 tvg-id="bbclifestyle" tvg-name="BBC Lifestyle" group-title="Lifestyle",BBC Lifestyle
+https://smart.pendy.dpdns.org/Smart.php?id=bbclifestyle_twn
+
+#EXTINF:-1 tvg-id="natgeowild2" tvg-name="Nat Geo Wild (Backup)" group-title="Documentary",Nat Geo Wild (Backup)
+https://smart.pendy.dpdns.org/Smart.php?id=Natgeowild
+
+#EXTINF:-1 tvg-id="animalplanet2" tvg-name="Animal Planet (Backup)" group-title="Documentary",Animal Planet (Backup)
+https://smart.pendy.dpdns.org/Smart.php?id=AnimalPlanet
+
+#EXTINF:-1 tvg-id="tlc" tvg-name="TLC" group-title="Lifestyle",TLC
+https://smart.pendy.dpdns.org/Smart.php?id=Tlc
+
+#EXTINF:-1 tvg-id="foodnetworkhd" tvg-name="Food Network HD" group-title="Lifestyle",Food Network HD
+https://smart.pendy.dpdns.org/Smart.php?id=Foodnetwork
+
+#EXTINF:-1 tvg-id="hgtv" tvg-name="HGTV" group-title="Lifestyle",HGTV
+https://smart.pendy.dpdns.org/Smart.php?id=HGTV
 
 #EXTINF:-1 tvg-id="set_hd" tvg-name="Sony SET HD" group-title="Sony",Sony SET HD
 https://tataplay.slivcdn.com/hls/live/2011671/SETHD/master_2000.m3u8
